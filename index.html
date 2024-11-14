@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    <div class="background-image"></div>
     <section id="login-container">
         <h1>Bem-vindo à SUSHI!</h1>
         <form id="login-form">
@@ -17,10 +18,16 @@
             <input type="password" id="password" name="password" required placeholder="Digite sua senha">
            
             <button type="submit">Entrar</button>
+
+            <!-- Botões de login social -->
+            <div class="social-login">
+                <button class="facebook-login">Continuar com Facebook</button>
+                <button class="google-login">Fazer login com o Google</button>
+            </div>
         </form>
         <p id="login-message" aria-live="polite"></p>
     </section>
    
-    <script src="assets/script.js/style.css"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
